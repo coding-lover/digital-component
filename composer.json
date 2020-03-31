@@ -1,0 +1,32 @@
+{
+  "name": "wmc-digital/digital-component",
+  "description": "this is a test",
+  "keywords": ["test", "digital-component"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "coding-lover",
+      "email": "wumingcong2013@163.com"
+    }
+  ],
+  "autoload": {
+      "psr-4": {
+        "coding-lover\\composer_t\\": "src/"
+      }
+  },
+  "require": {
+    "php": ">=7.3.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/log": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35"
+  },
+  "extra":{
+    "branch-alias":{
+      "dev-master":"1.0.x-dev"
+    }
+  }
+}
